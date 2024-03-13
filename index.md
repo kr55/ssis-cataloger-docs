@@ -8,24 +8,23 @@ layout: home
 SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019 or 2022.
 {: .fs-6 .fw-300 }
 
-Migrate the SSIS catalog to the new server quickly using SSIS Catalog Migration Wizard. 
+## Key Features
+- **Compare source and target catalog**: Compare source and target and choose to migrate only what has changed.
+- **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
+- **Replace SSIS environment variable values on the go**: Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope.
+- **Export, import, or delete SSISDB items in bulk**: Whether you want to keep the backup of SSIS catalog items or migrate SSISDB items to a different network or domain, SCMW file export covers this.
+- **Inspect existing SSISDB for issues**: Detect critial issues in existing SSISDB before migration. 
+- **Migrate catalog items to the same server**: Migrate SSIS Catalog items on the same SQL server but to different folders.
+- **Automate activities using the command-line utility**: With the command-line utility, we can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
+- **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
 
-Do you want to:
-* migrate SSIS to Azure Data Factory SSIS Integration runtime.
-* migrate SSISDB from one server to another
-* migrate SSIS catalog from SQL Server 2012 to SQL Server 2022 (or any version of SQL Server).
-* migrate SSIS catalog environment variables from DEV to UAT etc.
-*  restore SSISDB without master key.
-* automate routine SSIS catalog migrations.
+## How It Works
+- **Select source**: Select source SQL Server containing SSISDB to be migrated.
+- **Provide target**: Select target SQL Server where you want to migrate SSISDB.
+- **Manage migration settings**: Perform selection of SSISDB items and manage environment variables and parameter values update rules.
 
-Then you are at the right place!
+## Getting Started
+1. **Install the Extension**: Get started by [installing](https://ssiscataloger.azureops.org/download.html)  the extension.
+2. **Explore Documentation**: [Refer](https://ssiscataloger.azureops.org/getting-started) to our detailed documentation for step-by-step guides.
 
-# Background
-
-From SQL Server 2012 onwards, Microsoft introduced a new deployment model in SSIS called the project deployment model. This new model has many benefits in managing SSIS project deployments, executions, and configurations. With every new version of SQL Server, the SSIS Catalog is also getting upgraded with new features. In this article, I will describe how we can migrate the SSIS Catalog from one SQL Server instance to another using the SSIS Catalog Migration Wizard.
-
-The SSIS Integration Services Catalog consists of the following artifacts:
-
-* SSIS Builds (.ispac files) - Contains several SSIS packages with project and package parameters.
-* Environments - Stores configurations of SSIS projects. These variables are used to configure the SSIS project and package parameters of SSIS projects.
 
