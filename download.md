@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Installation
 permalink: /download/
 ---
