@@ -16,7 +16,7 @@ Do you want to:
 
 Then you are at the right place!
 
-{% include youtubePlayer.html id="t2h6xNVFQkc" %}
+
 
 # Background
 
