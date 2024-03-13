@@ -47,22 +47,22 @@ Choose the catalog items from the treeview.
 ***Compare source & target***
 Compare source and target and choose to migrate only what has changed.
 For example, in the above image:
-* Green items are present in the source and not present in the target,
-* Red items mean source and target items are not the same.
+* GreenÂ items are present in the source and not present in the target,
+* RedÂ items mean source and target items are not the same.
 * Unmodified items are displayed in the original color, and these objects are identical in the source and target
 
 ***Migrate only configuration***
 You can use this option to migrate only the project references and parameter values. Simply select the checkbox to migrate only the configuration part without the project code (.ispac file). Keep in mind that if the source project is not present in the target, both the project and its configuration will be migrated.
   
 ***Migration Type***
-Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button to delete the source catalog after the migration. The default type is ‘copy’.
+Migration types are â€˜copyâ€™ and â€˜moveâ€™. Select theâ€™ moveâ€™ radio button to delete the source catalog after the migration. The default type is â€˜copyâ€™.
 
 ***Migrate explicit permissions***
-Catalog folders, projects, and environments have explicit permissions. To migrate these permissions to the target, check the ‘Migrate explicit permissions' checkbox screen.
+Catalog folders, projects, and environments have explicit permissions. To migrate these permissions to the target, check the â€˜Migrate explicit permissions' checkbox screen.
 
 **Customize folder mapping**
 
-Easily map source and target its permissions' checkbox folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
+Easily map source and target its permissions' checkbox folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the â€˜Target Folderâ€™ column.
 
 <img src="media/CustomizeFolders.png" width="500">
 
@@ -77,10 +77,10 @@ Configure the key-value pairs you want to replace in the environment variable an
 Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configuration is different in the target environment. This configuration is optional.
 
 ***Overwrite environment variable values***
-The ‘Overwrite environment variable values’ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
+The â€˜Overwrite environment variable valuesâ€™ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
 
 ***Export sensitive data***
-This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted—whenThe ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
+This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encryptedâ€”whenThe â€˜Export sensitive dataâ€™ setting exports sensitive information in the export file as free text.
 
 **Complete the Wizard**
 
