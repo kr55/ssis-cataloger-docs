@@ -9,7 +9,6 @@ With the SSIS Catalog Migration Wizard (SCMW) command-line utility, you can auto
 Watch this quick video to learn more.
 {% include youtubePlayer.html id="uQ0oc8mEuUs" %}
 
-
 ## Parameters 
 
 SSISCataloger.Pro.exe initiates the migration using the parameters specified on the command line.
@@ -40,20 +39,28 @@ Add the folder path of the SSIS.Cataloger.Pro.exe file in the Windows system env
 
 Export the entire SSIS catalog from SQL Server SSISDB to SCMW file.
 
+```powershell
     "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:. /tt:2 /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" 
+```
     
 Import specific SSIS catalog artifacts from the SCMW file to SQL Server SSISDB and rename a folder in the target.
 
+```powershell
     SSIS.Cataloger.Pro.exe /st:2 /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" /tt:0 /tsn:TargetServer /items:"[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]" /fm:"{"Azure Test":"Azure Prod"}"
-    
+ ```
+ 
 Migrate specific SSIS catalog artifacts from one SQL server instance to another with log file at a custom location.
 
+```powershell
     SSIS.Cataloger.Pro.exe /st:0 /ssn:SourceServer /tt:0 /tsn:TargetServer /items:"[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]" /lfd:"D:SCMW exports"
-      
+```
+
 Inspect the SSIS catalog for environment configuration issues.
 
+```powershell
     "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:LAPTOP-R9A0KU50 /opr:inspect
-    
+ ```
+   
 <img src="../CommandlineExecutionOfInspectCommand.gif" width="800">
 
 
