@@ -1,8 +1,31 @@
 title: SSIS Catalog Migration Wizard
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://ssiscataloger.azureops.org
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Activate Now":
+    - "https://azureops.org/product/ssis-catalog-migration-wizard-pro/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+favicon_ico: "/assets/images/favicon.ico"
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
