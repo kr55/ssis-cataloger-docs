@@ -18,11 +18,11 @@ You can migrate SSISDB between any SQL Servers from the server where the tool is
 
 **We are an educational institute or non-profit organization. Can we get any offer or discount on the license?**
 
-We offer exclusive discounts to educational institutes and non-profit organizations. To check the offer, write an email to support@azureops.org from your official email address. The offer will be tagged to the official email address and can only be availed when using the email as the billing address.
+We offer exclusive discounts to educational institutes and non-profit organizations. To check the offer, write an email to [support@azureops.org](mailto:support@azureops.org) from your official email address. The offer will be tagged to the official email address and can only be availed when using the email as the billing address.
 
 **I am planning to purchase multiple licenses at the same time. Can I get a discount?**
 
-We offer discounts to our customers planning to acquire more than two licenses simultaneously. To check the latest offer, email support@azureops.org
+We offer discounts to our customers planning to acquire more than two licenses simultaneously. To check the latest offer, email [support@azureops.org](mailto:support@azureops.org)
 with your requirements. The offer code will be delivered to you based on your purchase plan.
 
 ## Technical 
@@ -57,7 +57,7 @@ It is possible to migrate SSIS project parameter values and environment configur
 
 **Is this tool capable of migrating .NET script tasks?**
 
-SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult support at support@azureops.org for a limited feature free trial to validate if it works for you.
+SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult support at [support@azureops.org](mailto:support@azureops.org) for a limited feature free trial to validate if it works for you.
 
 ## Software package and policies
 
@@ -67,7 +67,7 @@ You will receive an email with a download link to the product and an activation 
 
 **I am facing issues with the migration; how can I get help?**
 
-The AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard users. You can contact a support agent from the product page live chat or email support@azureops.org with the problem statement.
+The AzureOps support team offers dedicated support to SSIS Catalog Migration Wizard users. You can contact a support agent from the product page live chat or email [support@azureops.org](mailto:support@azureops.org) with the problem statement.
 
 **Does SSIS Catalog Migration Wizard require an internet connection to work?**
 
@@ -83,7 +83,7 @@ SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another i
 
 **Is there a limited feature free trial available?**
 
-SSIS Catalog Migration Wizard has a limited feature trial version. The LFT version can migrate the first three SSIS projects (.ispac files) from the source to target SSISDB without environment variable configurations. If you want to try this before purchasing the full version, email support@azureops.org or chat with our support from the product page.
+SSIS Catalog Migration Wizard has a limited feature trial version. The LFT version can migrate the first three SSIS projects (.ispac files) from the source to target SSISDB without environment variable configurations. If you want to try this before purchasing the full version, email [support@azureops.org](mailto:support@azureops.org) or chat with our support from the product page.
 
 **How can I receive software updates?**
 
