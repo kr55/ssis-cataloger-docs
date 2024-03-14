@@ -4,6 +4,8 @@ title: FAQ
 permalink: /faq/
 nav_order: 7
 ---
+# Frequently Asked Questions
+
 ## Licensing 
 
 **How many users are available in one license?**
