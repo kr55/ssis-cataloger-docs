@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Release notes
-permalink: /releases/
+permalink: /release-notes/
 nav_order: 7
 ---
 # Release notes
