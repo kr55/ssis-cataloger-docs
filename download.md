@@ -14,6 +14,8 @@ nav_order: 3
 1. TOC
 {:toc}
 
+---
+
 ## How to install
 
 ### Using the Installer
