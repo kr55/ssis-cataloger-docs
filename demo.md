@@ -2,6 +2,7 @@
 layout: page
 title: Demo
 permalink: /demo/
+nav_order: 5
 ---
 ### Migrate SSISDB from one SQL Server to another.
 #### Use cases
