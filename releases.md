@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Releases
+title: Release notes
 permalink: /releases/
 nav_order: 8
 ---
