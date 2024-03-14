@@ -2,6 +2,7 @@
 layout: page
 title: Installation
 permalink: /download/
+nav_order: 3
 ---
 
 SSIS Catalog Migration Wizard is a licensed product. If you wish to purchase a license, you can get it from the below link.
