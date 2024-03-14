@@ -14,7 +14,7 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to 
 
 ---
 
-<img src="media/Main.png" width="500">
+{% include youtubePlayer.html id="t2h6xNVFQkc" %}
 
 ## Supported Sources and Targets
 - **SSIS for SQL Server**: SSIS catalog enabled in SQL Server. 
