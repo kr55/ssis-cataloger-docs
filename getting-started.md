@@ -2,6 +2,7 @@
 layout: page
 title: Getting started
 permalink: /getting-started/
+nav_order: 4
 ---
 
 Once installed, you can launch the SSIS Catalog Migration Wizard from SQL Server Management Studio (SSMS 18, 19), Visual Studio 2017, Visual Studio 2019 or Visual Studio 2022. Alternatively, you can use it as a standalone tool. The welcome screen for the wizard is shown below:
