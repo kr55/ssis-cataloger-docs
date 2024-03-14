@@ -14,9 +14,9 @@ nav_order: 4
 1. TOC
 {:toc}
 
-Once installed, you can launch the SSIS Catalog Migration Wizard from SQL Server Management Studio (SSMS 18, 19), Visual Studio 2017, Visual Studio 2019 or Visual Studio 2022. Alternatively, you can use it as a standalone tool.
-
 We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. I also have a video demo available to watch.
+
+{% include youtubePlayer.html id="t2h6xNVFQkc" %}
 
 To start, launch the wizard from your preferred location.
 
