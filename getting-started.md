@@ -28,13 +28,13 @@ To start, launch the wizard from your preferred location.
 
 Choose the SQL Server radio button and then provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use Windows Authentication, and the user running this should have the ssis_admin role.
 
-<img src="../media/ChooseSource.PNG" width="500">
+<img src="../media/ChooseSource.png" width="500">
 
 **Choose Target**
 
 Choose the Azure data factory radio button for the target. Provide the Azure SQL Server hostname, admin SQL server authentication user name, and password.
 
-<img src="../media/ChooseTarget.PNG" width="500">
+<img src="../media/ChooseTarget.png" width="500">
 
 Note: This utility only supports SQL authentication for the Azure SQL Server connection.
 
