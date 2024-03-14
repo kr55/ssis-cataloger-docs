@@ -10,6 +10,7 @@ aux_links:
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
+hide_icon: false # set to true to hide the external link icon - defaults to false
 
 favicon_ico: "/assets/images/favicon.ico"
 
