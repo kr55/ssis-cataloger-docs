@@ -2,7 +2,7 @@ title: SSIS Catalog Migration Wizard
 description: SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another.
 theme: just-the-docs
 
-url: https://ssiscataloger.azureops.org
+url: ssiscataloger.azureops.org
 
 aux_links:
   "Activate Now":
