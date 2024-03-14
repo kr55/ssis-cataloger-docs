@@ -10,7 +10,7 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to 
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscatalogerpro)]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscatalogerpro){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
