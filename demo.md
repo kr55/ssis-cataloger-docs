@@ -39,3 +39,5 @@ nav_order: 5
 ### Use cases
 1. Automate routine migrations from source SQL server to target SQL Server SSISDB using a scheduler like SQL Server agent job.
 {% include youtubePlayer.html id="uQ0oc8mEuUs" %}
+
+[Learn more](https://ssiscataloger.azureops.org/automation/){: .btn .btn-purple .mr-2 }
