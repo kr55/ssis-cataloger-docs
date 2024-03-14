@@ -9,6 +9,13 @@ nav_order: 1
 SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019 or 2022.
 {: .fs-6 .fw-300 }
 
+<img src="../media/Main.png" width="500">
+
+## Supported Sources and Targets
+- **SSIS for SQL Server**: SSIS catalog enabled in SQL Server. 
+- **SSIS for Azure Data Factory**: This is used when running SSIS packages in Azure using Azure data factory pipelines.
+- **SCMW export**: This is a unique export format for SSIS Catalog items.
+
 ## Key Features
 - **Compare source and target catalog**: Compare source and target and choose to migrate only what has changed.
 - **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
