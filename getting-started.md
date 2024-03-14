@@ -16,9 +16,9 @@ nav_order: 4
 
 ---
 
-We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. I also have a video demo available to watch.
+We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. 
 
-{% include youtubePlayer.html id="t2h6xNVFQkc" %}
+<img src="../media/Main.png" width="500">
 
 To start, launch the wizard from your preferred location.
 
