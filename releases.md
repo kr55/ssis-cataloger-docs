@@ -4,6 +4,8 @@ title: Releases
 permalink: /releases/
 nav_order: 8
 ---
+# Release notes
+
 ### 2.7.1 Current (07/30/2023)
 - Added clear all and multi-select option to delete environment variable and parameter value recommendations.
 
