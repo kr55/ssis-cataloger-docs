@@ -2,6 +2,7 @@
 layout: page
 title: FAQ
 permalink: /faq/
+nav_order: 7
 ---
 ## Licensing 
 
