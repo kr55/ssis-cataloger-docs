@@ -4,6 +4,9 @@ title: Perequisites
 permalink: /prerequisites/
 nav_order: 2
 ---
+
+# Perequisites
+
 Optional
 {: .label .label-blue }
 
