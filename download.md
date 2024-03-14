@@ -11,6 +11,9 @@ nav_order: 3
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
 ## How to install
 
 ### Using SSIS Catalog Migration Wizard Installer.exe
