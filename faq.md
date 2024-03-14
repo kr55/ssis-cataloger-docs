@@ -4,7 +4,7 @@ title: FAQ
 permalink: /faq/
 nav_order: 7
 ---
-# Frequently Asked Questions
+# Frequently asked questions
 
 ## Licensing 
 
