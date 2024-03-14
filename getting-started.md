@@ -48,30 +48,30 @@ For example, in the above image:
 ### Migrate only configuration
 You can use this option to migrate only the project references and parameter values. Simply select the checkbox to migrate only the configuration part without the project code (.ispac file). Keep in mind that if the source project is not present in the target, both the project and its configuration will be migrated.
   
-### Migration Type
+### Migration yype
 Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button to delete the source catalog after the migration. The default type is ‘copy’.
 
 ### Migrate explicit permissions
 Catalog folders, projects, and environments have explicit permissions. To migrate these permissions to the target, check the ‘Migrate explicit permissions' checkbox screen.
 
-## Customize folder mapping
+## Customize Folder Mapping
 Easily map source and target its permissions' checkbox folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
 
 <img src="../media/CustomizeFolders.png" width="500">
 
 For instance, as shown in the above image, the wizard will copy the content of the source catalog folder Pqr to the target catalog folder Abc. This step is optional.
 
-## Replace your environment variable values
+## Replace Environment Variable and Parameter Values
 Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope. Click on the Ref column to view the affected environment variables and parameters as shown in the image below.
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
 Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configuration is different in the target environment. This configuration is optional.
 
-## Overwrite environment variable values
+## Overwrite Environment Variable Values
 The ‘Overwrite environment variable values’ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
 
-## Export sensitive data
+## Export Sensitive Data
 This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted—whenThe ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
 
 ## Complete the Wizard
@@ -79,7 +79,7 @@ This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file
 
 Review the deployment summary. And if everything looks ok, click Finish.
 
-## Monitor the migration
+## Monitor the Migration
 <img src="../media/Finish.png" width="500">
 
 Any warning or error during the migration gets shown next to the respective folder in the Result column tooltip of the grid. The success items are all noted as "Passed" in the above image.
