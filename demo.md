@@ -6,7 +6,8 @@ nav_order: 5
 ---
 
 # Demo
-
+Check out these brief demonstrations to understand the functionality of the SSIS Catalog Migration Wizard across different scenarios of SSISDB management.
+{: .fs-6 .fw-300 }
 ## Migrate SSISDB from one SQL Server to another.
 ### Use cases
 1. Migrate SSISDB from SQL Server (2012, 2014, 2016, 2017, 2019, 2022, Azure SQL MI, Azure SSIS IR) to SQL Server (2012, 2014, 2016, 2017, 2019, 2022, Azure SQL MI, Azure SSIS IR).
