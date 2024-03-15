@@ -6,7 +6,7 @@ nav_order: 5
 ---
 
 # Demo
-Check out these brief demonstrations to understand the functionality of the SSIS Catalog Migration Wizard across different scenarios of SSISDB management.
+Check out these brief demonstrations to understand the functionality of SSIS Catalog Migration Wizard across different scenarios of SSISDB management.
 {: .fs-6 .fw-300 }
 ## Migrate SSISDB from one SQL Server to another.
 ### Use cases
