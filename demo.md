@@ -36,9 +36,3 @@ Check out these brief demonstrations to understand the functionality of SSIS Cat
 1. Create a test environment based on the current dev environment on the same SQL Server SSISDB but in different folders.
 {% include youtubePlayer.html id="VLBkxjidZ5g" %}
 
-## Automate SSISDB migrations.
-### Use cases
-1. Automate routine migrations from source SQL server to target SQL Server SSISDB using a scheduler like SQL Server agent job.
-{% include youtubePlayer.html id="uQ0oc8mEuUs" %}
-
-[Learn more](https://ssiscataloger.azureops.org/automation/){: .btn .btn-purple .mr-2 }
