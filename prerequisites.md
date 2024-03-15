@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Perequisites
+title: Prerequisites
 permalink: /prerequisites/
 nav_order: 2
 ---
 
-# Perequisites
+# Prerequisites
 
 Optional
 {: .label .label-blue }
