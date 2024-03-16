@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github"
+    "\\.github",
+    "\\_includes"
   ],
+  "SelectedNode": "\\getting-started.md",
   "PreviewInSolutionExplorer": false
 }
