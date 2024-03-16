@@ -20,11 +20,13 @@ We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Cata
 
 To start, launch the wizard from your preferred location.
 
-<img src="../media/SSMSoption.png" width="700">
+<img src="../media/SSMSoption.jpg" width="700">
 
 ## Welcome Screen 
 
 <img src="../media/Main.png" width="500">
+
+Click `Next` to continue.
 
 ## Choose Source 
 Choose the SQL Server radio button and then provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use Windows Authentication, and the user running this should have the ssis_admin role.
@@ -55,7 +57,7 @@ For example, in the above image:
 You can use this option to migrate only the project references and parameter values. Simply select the checkbox to migrate only the configuration part without the project code (.ispac file). Keep in mind that if the source project is not present in the target, both the project and its configuration will be migrated.
   
 ### Migration type
-Migration types are ‘copy’ and ‘move’. Select the’ move’ radio button to delete the source catalog after the migration. The default type is ‘copy’.
+Migration types are `copy` and `move`. Select the  `move` radio button to delete the source catalog after the migration. The default type is `copy`.
 
 ### Migrate explicit permissions
 Catalog folders, projects, and environments have explicit permissions. To migrate these permissions to the target, check the ‘Migrate explicit permissions' checkbox screen.
@@ -75,10 +77,10 @@ Configure the key-value pairs you want to replace in the environment variable an
 Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configuration is different in the target environment. This configuration is optional.
 
 ## Overwrite Environment Variable Values
-The ‘Overwrite environment variable values’ setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
+The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
 
 ## Export Sensitive Data
-This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted—whenThe ‘Export sensitive data’ setting exports sensitive information in the export file as free text.
+This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted—whenThe `Export sensitive data` setting exports sensitive information in the export file as free text.
 
 ## Complete the Wizard
 <img src="../media/Review.png" width="500">
