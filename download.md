@@ -48,7 +48,7 @@ nav_order: 3
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Cataloger` using 7zip.
 2. Copy this folder to the location `C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions`. You would need admin permissions to do this.
 3. Restart SSMS 18.
-4. You will now see the "SSIS Cataloger" option under the Tools menu item. Click it to Launch.
+4. You will now see the `SSIS Cataloger` option under the Tools menu item. Click it to Launch.
 
 **SQL Server Management Studio 19**
 
@@ -57,7 +57,7 @@ nav_order: 3
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Cataloger` using 7zip.
 2. Copy this folder to the location `C:\Program Files (x86)\Microsoft SQL Server Management Studio 19\Common7\IDE\Extensions`. You would need admin permissions to do this.
 3. Restart SSMS 19.
-4. You will now see the "SSIS Cataloger" option under the Tools menu item. Click it to Launch.
+4. You will now see the `SSIS Cataloger` option under the Tools menu item. Click it to Launch.
 
 **Standalone installation**
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Catalog Migration Wizard` using 7zip.

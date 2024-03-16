@@ -18,9 +18,13 @@ nav_order: 4
 
 We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. 
 
-<img src="../media/Main.png" width="500">
-
 To start, launch the wizard from your preferred location.
+
+<img src="../media/SSMSoption.png" width="700">
+
+## Welcome Screen 
+
+<img src="../media/Main.png" width="500">
 
 ## Choose Source 
 Choose the SQL Server radio button and then provide the SQL Server instance name. To perform operations on the SSIS catalog, we have to use Windows Authentication, and the user running this should have the ssis_admin role.
