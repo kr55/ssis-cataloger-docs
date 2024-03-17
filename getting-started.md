@@ -43,7 +43,7 @@ Choose the Azure data factory radio button for the target. Provide the Azure SQL
 This utility only supports SQL authentication for the Azure SQL Server connection.
 
 ## Select SSISDB Catalog Items to Migrate
-Choose the catalog items from the treeview.
+Choose the catalog items from the Treeview.
 
 <img src="../media/ChooseItems.gif" width="500">
 
@@ -75,18 +75,18 @@ Configure the key-value pairs you want to replace in the environment variable an
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
-Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configuration is different in the target environment. This configuration is optional.
+Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configurations are different in the target environment. This configuration is optional.
 
 ## Overwrite Environment Variable Values
 The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
 
 ## Export Sensitive Data
-This setting applies to exporting SSIS Catalog to the SCMW file.SCMW export file is not encrypted—whenThe `Export sensitive data` setting exports sensitive information in the export file as free text.
+This setting applies to exporting SSIS Catalog items to the SCMW file. SCMW export file is not encrypted. When the `Export sensitive data` setting is set, the wizard exports sensitive information in the export file as free text.
 
 ## Complete the Wizard
 <img src="../media/Review.png" width="500">
 
-Review the deployment summary. And if everything looks ok, click Finish.
+Review the deployment summary And if everything looks ok, click Finish.
 
 ## Monitor the Migration
 <img src="../media/Finish.png" width="500">
