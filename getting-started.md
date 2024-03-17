@@ -20,7 +20,7 @@ We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Cata
 
 To start, launch the wizard from your preferred location.
 
-<img src="../media/SSMSoption.jpg" width="700">
+<img src="../media/SSMSoption.jpg" width="800">
 
 ## Welcome Screen 
 

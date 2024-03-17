@@ -33,6 +33,8 @@ nav_order: 3
 3. Once the download is done, restart Visual Studio and complete the installtion.
 4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
 
+<img src="../media/VSMarketPlaceDownload.png" width="700">
+
 **Visual Studio 2022**
 
 1. Opem Visual Studio 2022. 
@@ -40,6 +42,8 @@ nav_order: 3
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
 3. Once the download is done, restart Visual Studio and complete the installtion.
 4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
+
+<img src="../media/VSMarketPlaceDownload2022.png" width="700">
 
 **SQL Server Management Studio 18**
 
@@ -62,7 +66,6 @@ nav_order: 3
 **Standalone installation**
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Catalog Migration Wizard` using 7zip.
 2. Place this folder to your preferred location and double-click the `SSIS.Cataloger.exe` file, to launch the application.
-
 
 You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
 
