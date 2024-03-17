@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 # Prerequisites
-Check below steps before you use SSIS Catalog Migration Wizard for your first ever migration.
+Check below steps before you use SSIS Catalog Migration Wizard for your first-ever migration.
 {: .fs-6 .fw-300 }
 
 1. SSISDB in the target SQL Server Integration Services Catalog already exists. If it does not exist, you can [create SSIS catalog](https://azureops.org/articles/create-ssis-catalog/) under the Integration 
