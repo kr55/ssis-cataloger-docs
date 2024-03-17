@@ -8,13 +8,12 @@ nav_order: 4
 # Getting started
 {: .no_toc }
 
-
-{: .no_toc .text-delta }
-
 We will now see how SSIS Catalog Migration Wizard migrates SSISDB from one SQL Server to another in just a few clicks. 
 {: .fs-6 .fw-300 }
 
 ## Table of contents
+{: .no_toc .text-delta }
+
 1. TOC
 {:toc}
 
