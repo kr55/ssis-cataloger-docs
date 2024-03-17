@@ -6,7 +6,7 @@ nav_order: 1
 
 # SSIS Catalog Migration Wizard
 
-SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019 or 2022.
+SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to another It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019, or 2022.
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -23,7 +23,7 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to 
 
 ## Key Features
 - **Compare source and target catalog**: Compare source and target and choose to migrate only what has changed.
-- **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
+- **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
 - **Replace SSIS environment variable values on the go**: Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope.
 - **Export, import, or delete SSISDB items in bulk**: Whether you want to keep the backup of SSIS catalog items or migrate SSISDB items to a different network or domain, SCMW file export covers this.
 - **Inspect existing SSISDB for issues**: [Detect](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) critial issues in existing SSISDB before migration. 
