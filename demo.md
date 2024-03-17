@@ -18,7 +18,7 @@ Check out these brief demonstrations to understand the functionality of SSIS Cat
 ## Export and Import SSISDB between two SQL Servers in different networks or domains. 
 ### Use cases
 1. Source SQL Server and target SQL Server are in different networks and can be connected through different machines.
-2. Source SQL Server and target SQL Server uses different domain accounts to connect to Integration Services Catalog.
+2. Source SQL Server and target SQL Server use different domain accounts to connect to the Integration Services Catalog.
 3. Keep a backup of SSISDB to be restored later to some other SQL Server (SSISDB).
 {% include youtubePlayer.html id="AEGsZb-pb2g" %}
 
