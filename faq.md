@@ -45,7 +45,7 @@ SSIS Catalog Migration Wizard uses native SQL connection API to connect to SQL S
 
 **I do not have the SSISDB master key. Can I still migrate my SSISDB to target SQL Server SSISDB?**
 
-Absolutely, you do not need to provide the master key of source SSISDB to migrate your SSISDB to the target SQL Server using SSIS Catalog Migration Wizard.
+You do not need to provide the master key of source SSISDB to migrate your SSISDB to the target SQL Server using SSIS Catalog Migration Wizard.
 
 **Can I migrate SSIS Catalog objects on the same server but in different folders?**
 
