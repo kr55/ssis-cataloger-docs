@@ -31,7 +31,7 @@ tu   |       Mandatory when st = 1   |       Target user name. Admin user name f
 tp   |       Mandatory when st = 1   |       Target password. Admin user password for Azure SQL server containing SSIS IR.
 scmwfp   |       Mandatory when st or tt = 2   |       The full path of the SCMW file.
 opr   |       Optional   |       Operation. Specify which operation to perform. Possible values are 'migrate' and 'inspect'. The default is 'migrate'. This parameter is in preview.
-items   |       Optional   |       Specify catalog items to be migrated in JSON format.e.g.: "[{"FolderName":"Name of the folder","Projects":["testUC"],"Environments["env1"]}]" When not specified, entire catalog items from the source will be migrated to the target.
+items   |       Optional   |       Specify catalog items to be migrated in JSON format. e.g.: "[{"FolderName":"Name of the folder","Projects":["testUC"],"Environments["env1"]}]" When not specified, entire catalog items from the source will be migrated to the target.
 mt   |       Optional   |       Migration type. Possible values are 'copy' and 'move'. The default is 'copy'. When 'move' is specified, selected catalog items will be deleted from the source during the migration
 fm   |       Optional   |       Source and target folder mapping. e.g.: If you wish to migrate 'Azure test' folder items to 'Azure prod', specify fm as"{"Azure test":"Azure prod"}"
 oev   |       Optional   |       Overwrite environment variables. Possible values are 'true' and 'false'. Default is 'false'. When set to 'true', existing environment variables in the target will be recreated based on source variables.
@@ -43,19 +43,19 @@ Add the folder path of the SSIS.Cataloger.Pro.exe file in the Windows system env
 
 Export the entire SSIS catalog from SQL Server SSISDB to SCMW file.
 
-```powershell
+```PowerShell
     "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:. /tt:2 /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" 
 ```
     
 Import specific SSIS catalog artifacts from the SCMW file to SQL Server SSISDB and rename a folder in the target.
 
-```powershell
+```PowerShell
     SSIS.Cataloger.Pro.exe /st:2 /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" /tt:0 /tsn:TargetServer /items:"[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]" /fm:"{"Azure Test":"Azure Prod"}"
  ```
  
 Migrate specific SSIS catalog artifacts from one SQL server instance to another with log file at a custom location.
 
-```powershell
+```PowerShell
     SSIS.Cataloger.Pro.exe /st:0 /ssn:SourceServer /tt:0 /tsn:TargetServer /items:"[{"FolderName":"Azure test","Projects":[],"Environments":["env1"]},{"FolderName":"AzureDevOpsDeployment","Projects":["testUC"],"Environments":[]},{"FolderName":"Sales","Projects":["sales-stg2"],"Environments":[]}]" /lfd:"D:SCMW exports"
 ```
 
