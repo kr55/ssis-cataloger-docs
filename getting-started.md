@@ -11,12 +11,13 @@ nav_order: 4
 ## Table of contents
 {: .no_toc .text-delta }
 
+We will now see how SSIS Catalog Migration Wizard migrates SSISDB from one SQL Server to another in just a few clicks. 
+{: .fs-6 .fw-300 }
+
 1. TOC
 {:toc}
 
 ---
-
-We will now see how SSIS Catalog Migration Wizard migrates on-premises SSIS Catalog in SQL Server to SSIS in Azure Data Factory in just a few clicks. 
 
 To start, launch the wizard from your preferred location.
 
