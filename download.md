@@ -27,20 +27,20 @@ nav_order: 3
 
 **Visual Studio 2017/2019**
 
-1. Opem Visual Studio 2017 or 2019. 
+1. Open Visual Studio 2017 or 2019. 
 2. Click `Tools` menu item and click `Extension and Updates`.
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
-3. Once the download is done, restart Visual Studio and complete the installtion.
+3. Once the download is done, restart Visual Studio and complete the installation.
 4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
 
 <img src="../media/VSMarketPlaceDownload.png" width="700">
 
 **Visual Studio 2022**
 
-1. Opem Visual Studio 2022. 
+1. Open Visual Studio 2022. 
 2. Click `Extensions` menu item and click `Manage Extensions`.
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
-3. Once the download is done, restart Visual Studio and complete the installtion.
+3. Once the download is done, restart Visual Studio and complete the installation.
 4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
 
 <img src="../media/VSMarketPlaceDownload2022.png" width="700">
@@ -73,7 +73,7 @@ You will receive a download link in your email. You can also find the download l
 
 [Get License Key](https://azureops.org/product/ssis-catalog-migration-wizard-pro/){: .btn .btn-green .mr-4 }
 
-You would receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
+You will receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
 Launch SSIS Cataloger Installer.exe and enter the product key on the landing page screen and click on the `Activate Product` button. 
 It should activate the product on the machine.
 
