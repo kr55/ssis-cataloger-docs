@@ -6,7 +6,7 @@ nav_order: 1
 
 # SSIS Catalog Migration Wizard
 
-SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019, and 2022. Additionally, it offers the flexibility to operate as an independent standalone application.
+SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019, and 2022. Additionally, it offers the flexibility to operate as an independent, standalone application.
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -26,7 +26,7 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server
 - **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
 - **Replace SSIS environment variable values on the go**: Configure the key-value pairs you want to replace in the environment variable and parameter values with proactive suggestions.
 - **Export, import, or delete SSISDB items in bulk**: Whether you want to keep the backup of SSIS catalog items or migrate SSISDB items to a different network or domain, SCMW file export covers this.
-- **Inspect existing SSISDB for issues**: [Detect](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) critial issues in existing SSISDB before migration. 
+- **Inspect existing SSISDB for issues**: [Detect](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) critical issues in existing SSISDB before migration. 
 - **Migrate catalog items to the same server**: Migrate SSIS Catalog items on the same SQL server but to different folders.
 - **Automate activities with the command-line utility**: With the command-line utility, you can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
 - **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
