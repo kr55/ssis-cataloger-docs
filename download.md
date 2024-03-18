@@ -28,20 +28,20 @@ nav_order: 3
 **Visual Studio 2017/2019**
 
 1. Open Visual Studio 2017 or 2019. 
-2. Click `Tools` menu item and click `Extension and Updates`.
+2. Click on the ‘Tools’ menu item, then select ‘Extensions and Updates’.
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
 3. Once the download is done, restart Visual Studio and complete the installation.
-4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
+4. Click on the ‘Tools‘ menu item. You will see the `SSIS Cataloger` option. Click it to launch.
 
 <img src="../media/VSMarketPlaceDownload.png" width="700">
 
 **Visual Studio 2022**
 
 1. Open Visual Studio 2022. 
-2. Click `Extensions` menu item and click `Manage Extensions`.
+2. Click on the ‘Extensions’ menu item, then select ‘Manage Extensions’.
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
 3. Once the download is done, restart Visual Studio and complete the installation.
-4. Click on the Tools menu item. You will see the `SSIS Cataloger` option. Click it to launch.
+4. Click on the ‘Tools‘ menu item. You will see the `SSIS Cataloger` option. Click it to launch.
 
 <img src="../media/VSMarketPlaceDownload2022.png" width="700">
 
