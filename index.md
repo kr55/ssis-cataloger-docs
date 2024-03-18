@@ -22,22 +22,22 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one server to 
 - **SCMW export**: This is a unique export format for SSIS Catalog items.
 
 ## Key Features
-- **Compare source and target catalog**: Compare source and target and choose to migrate only what has changed.
+- **Compare source and target catalogs**: Compare source and target and choose to migrate only what has changed.
 - **Customize SSIS folder names on the go**: Quickly map source and target folder names. The wizard populates all selected folder names in the Source and Target folder columns. If you wish to customize the folders, edit the value in the ‘Target Folder’ column.
 - **Replace SSIS environment variable values on the go**: Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope.
 - **Export, import, or delete SSISDB items in bulk**: Whether you want to keep the backup of SSIS catalog items or migrate SSISDB items to a different network or domain, SCMW file export covers this.
 - **Inspect existing SSISDB for issues**: [Detect](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) critial issues in existing SSISDB before migration. 
 - **Migrate catalog items to the same server**: Migrate SSIS Catalog items on the same SQL server but to different folders.
-- **Automate activities using the command-line utility**: With the command-line utility, we can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
+- **Automate activities with the command-line utility**: With the command-line utility, we can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
 - **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
 
 ## How It Works
-- **Select source**: Select source SQL Server containing SSISDB to be migrated.
-- **Provide target**: Select target SQL Server where you want to migrate SSISDB.
+- **Select the source**: Select source SQL Server containing SSISDB to be migrated.
+- **Provide the target**: Select target SQL Server where you want to migrate SSISDB.
 - **Manage migration settings**: Perform selection of SSISDB items and manage environment variables and parameter values update rules.
-
+critical
 ## Getting Started
 1. **Install the Extension**: Get started by [installing](https://ssiscataloger.azureops.org/download.html)  the extension.
-2. **Explore Documentation**: [Refer](https://ssiscataloger.azureops.org/getting-started) to our detailed documentation for step-by-step guides.
+2. **Explore the Documentation**: [Refer](https://ssiscataloger.azureops.org/getting-started) to our detailed documentation for step-by-step guides.
 
 
