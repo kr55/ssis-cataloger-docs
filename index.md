@@ -28,7 +28,7 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server
 - **Export, import, or delete SSISDB items in bulk**: Whether you want to keep the backup of SSIS catalog items or migrate SSISDB items to a different network or domain, SCMW file export covers this.
 - **Inspect existing SSISDB for issues**: [Detect](https://azureops.org/articles/is-your-ssis-catalog-migration-ready/) critial issues in existing SSISDB before migration. 
 - **Migrate catalog items to the same server**: Migrate SSIS Catalog items on the same SQL server but to different folders.
-- **Automate activities with the command-line utility**: With the command-line utility, we can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
+- **Automate activities with the command-line utility**: With the command-line utility, you can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
 - **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
 
 ## How It Works
