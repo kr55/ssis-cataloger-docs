@@ -44,8 +44,7 @@ Add the folder path of the SSIS.Cataloger.Pro.exe file in the Windows system env
 Export the entire SSIS catalog from SQL Server SSISDB to SCMW file.
 
 ```PowerShell
-    "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:. /tt:2
-                /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" 
+    "D:SSIS Cataloger.ProSSIS.Cataloger.Pro.exe" /st:0 /ssn:. /tt:2 /scmwfp:"D:SCMW exportsExport_2021-07-18_06-49-17.scmw" 
 ```
     
 Import specific SSIS catalog artifacts from the SCMW file to SQL Server SSISDB and rename a folder in the target.
