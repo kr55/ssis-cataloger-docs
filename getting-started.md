@@ -81,7 +81,7 @@ Perhaps, this is useful when setting up a parallel environment for your ETL work
 The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. 
 
 {: .warning }  
-Using this setting will recreate target SSIS environment variables. You would loose existing environment variable values in this case.
+Using this setting will recreate target SSIS environment variables. You would loose existing target environment variable values in this case.
 
 
 ## Export Sensitive Data
