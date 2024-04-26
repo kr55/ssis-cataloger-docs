@@ -78,7 +78,11 @@ Configure the key-value pairs you want to replace in the environment variable an
 Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configurations are different in the target environment. This configuration is optional.
 
 ## Overwrite Environment Variable Values
-The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. Note here that you may lose target data in this case.
+The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. 
+
+{: .warning }  
+Using this setting will recreate target SSIS environment variables. You would loose existing environment variable values in this case.
+
 
 ## Export Sensitive Data
 This setting applies to exporting SSIS Catalog items to the SCMW file. SCMW export file is not encrypted. When the `Export sensitive data` setting is set, the wizard exports sensitive information in the export file as free text.
