@@ -6,7 +6,7 @@ nav_order: 1
 
 # SSIS Catalog Migration Wizard
 
-SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019, and 2022. Additionally, it offers the flexibility to operate as an independent, standalone application.
+SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, Visual Studio 2017, 2019, and 2022. Additionally, it offers the flexibility to operate as an independent, standalone application.
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -31,9 +31,17 @@ SSIS Catalog Migration Wizard helps you migrate SSIS Catalog from one SQL server
 - **Automate activities with the command-line utility**: With the command-line utility, you can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
 - **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
 
+  ## What objects can be migrated
+- SSIS Catalog Folders.
+- SSIS Build (.ispac) files.
+- Environments and environment variables.
+- Project and package parameter default values including connection manager properties and encrypted passwords.
+- Project and package parameter server-side values including connection manager properties and encrypted passwords.
+-  Folder, project, and environment permissions.
+
 ## How It Works
-- **Select the source**: Select source SQL Server containing SSISDB to be migrated.
-- **Provide the target**: Select target SQL Server where you want to migrate SSISDB.
+- **Select the source**: Select the source SQL Server containing SSISDB to be migrated.
+- **Provide the target**: Select the target SQL Server where you want to migrate SSISDB.
 - **Manage migration settings**: Perform selection of SSISDB items and manage environment variables and parameter values update rules.
 critical
 
