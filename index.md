@@ -31,7 +31,7 @@ SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL se
 - **Automate activities with the command-line utility**: With the command-line utility, you can automate routine migrations in a few clicks. The migration script can be integrated with any scheduler or CI-CD tool.
 - **Validate migrated projects automatically**: You can choose to validate all the migrated projects automatically after their migration.
 
-  ## What objects can be migrated
+## What objects can be migrated
 - SSIS Catalog Folders.
 - SSIS Build (.ispac) files.
 - Environments and environment variables.
