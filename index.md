@@ -43,7 +43,6 @@ SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL se
 - **Select the source**: Select the source SQL Server containing SSISDB to be migrated.
 - **Provide the target**: Select the target SQL Server where you want to migrate SSISDB.
 - **Manage migration settings**: Perform selection of SSISDB items and manage environment variables and parameter values update rules.
-critical
 
 ## Getting Started
 1. **Install the Extension**: Get started by [installing](https://ssiscataloger.azureops.org/download.html)  the extension.
