@@ -15,6 +15,10 @@ nav_order: 3
 {:toc}
 
 ---
+## How to download 
+Once you have ordered the product license from [azureops.org](https://azureops.org/product/ssis-catalog-migration-wizard-pro/), login to your account and navigate to [downloads](https://azureops.org/my-account/downloads/) page. Download the zip file. Alternatively, you will receive a link to download the software by email.
+
+<img src="../media/DownloadPage.png" width="700">
 
 ## How to install
 
@@ -70,8 +74,6 @@ nav_order: 3
 You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
 
 ## Activate license key
-
-[Get License Key](https://azureops.org/product/ssis-catalog-migration-wizard-pro/){: .btn .btn-green .mr-4 }
 
 You will receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
 Launch SSIS Cataloger Installer.exe and enter the product key on the landing page screen and click on the `Activate Product` button. 
