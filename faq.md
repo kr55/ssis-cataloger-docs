@@ -55,6 +55,10 @@ You can select the same source and target server on the screens and choose diffe
 
 It is possible to migrate SSIS project parameter values and environment configuration without migrating the project itself by using the 'Migrate only configuration' setting. However, the wizard will also migrate the project definition if the target does not already have the project.
 
+**Can the tool migrate sensitive environment variables and parameter values in my SSISDB?**
+
+Yes, the SSIS Catalog Migration Wizard fully supports the migration of sensitive data, including environment variables and project/package parameter values, to the target environment. Your sensitive values will be securely transferred during the migration process.
+
 **Is this tool capable of migrating .NET script tasks?**
 
 SSIS Catalog Migration Wizard does not change the build (.ispac) file during the migration from a lower to a higher version of SSISDB. Usually, script tasks are backward compatible. However, it is advisable to consult support at [support@azureops.org](mailto:support@azureops.org) for a limited feature free trial to validate if it works for you.
