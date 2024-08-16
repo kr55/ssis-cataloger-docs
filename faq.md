@@ -57,7 +57,7 @@ It is possible to migrate SSIS project parameter values and environment configur
 
 **Can the tool migrate sensitive environment variables and parameter values in my SSISDB?**
 
-Yes, the SSIS Catalog Migration Wizard fully supports the migration of sensitive data, including environment variables and project/package parameter values, to the target environment. Your sensitive values will be securely transferred during the migration process.
+Yes, the SSIS Catalog Migration Wizard fully supports the migration of sensitive data, including environment variables and project/package parameter values, to the target SSISDB. Your sensitive values will be securely transferred during the migration process.
 
 **Is this tool capable of migrating .NET script tasks?**
 
