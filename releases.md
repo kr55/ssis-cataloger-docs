@@ -6,9 +6,13 @@ nav_order: 7
 ---
 # Release notes
 
-## 2.8.1 (03/14/2024)
+## 2.9.1 (11/30/2024)
 Current
 {: .label .label-blue }
+- Added support for SSMS 20 and SSMS 21.
+- Bug fixes.
+
+## 2.8.1 (09/14/2024)
 - Updated help links in the wizard.
 - Performance optimisation.
 
