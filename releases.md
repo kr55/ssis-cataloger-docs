@@ -6,9 +6,12 @@ nav_order: 7
 ---
 # Release notes
 
-## 2.9.1 (11/30/2024)
+## 2.9.2 (12/05/2024)
 Current
 {: .label .label-blue }
+- Changed default suggestion method to ActualValues in Replace parameter and environment variable values screen.
+
+## 2.9.1 (11/30/2024)
 - Added support for SSMS 20 and SSMS 21.
 - Bug fixes.
 
