@@ -86,13 +86,12 @@ To review the affected environment variables and parameters, users can click on 
 One common scenario is updating a **SQL Server connection string** when migrating SSIS packages to a new environment. For example, consider the following connection string in the source environment:  
 
 **Source Connection String:**  
-`Data Source=<mark>sql-dev</mark>.database.windows.net;Initial Catalog=<mark>SourceDB</mark>;User ID=<mark>OldUser</mark>;Password=<mark>OldPassword</mark>;`  
+`Data Source=sql-dev.database.windows.net;Initial Catalog=SourceDB;User ID=OldUser;Password=OldPassword;`  
 
 If the target environment uses a different server and credentials, you can configure the wizard to replace these values:
 
 **Target Connection String:**  
-`Data Source=<mark>sql-test</mark>.database.windows.net;Initial Catalog=<mark>TargetDB</mark>;User ID=<mark>NewUser</mark>;Password=<mark>NewPassword</mark>;`  
-
+`Data Source=sql-test.database.windows.net;Initial Catalog=TargetDB;User ID=NewUser;Password=NewPassword;`  
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
