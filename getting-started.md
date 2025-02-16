@@ -73,17 +73,17 @@ For instance, as shown in the above image, the wizard will copy the content of t
 ## Replace Environment Variable and Parameter Values
 
 
-Migrating SQL Server Integration Services (SSIS) projects often involve updating environment variables and parameter values to align with the target environment. The **SSIS Catalog Migration Wizard** simplifies this process by prepopulating values from the source **SSISDB** and allowing users to modify them before migration.  
+Migrating SQL Server Integration Services (SSIS) projects often involve updating environment variables and parameter values to align with the target environment. SSIS Catalog Migration Wizard simplifies this process by prepopulating values from the source SSISDB and allowing users to modify them before migration.  
 
 ### Configuring Key-Value Replacements  
 
-During migration, users can configure **key-value pairs** to replace specific values in environment variables and SSIS project/package parameters. The wizard includes a **"Suggest"** button, which provides recommendations based on the selected **Replace Scope**.  
+During migration, users can configure key-value pairs to replace specific values in environment variables and SSIS project/package parameters. The wizard includes a `Suggest` button, which provides recommendations based on the selected `Replace Scope`.  
 
-To review the affected environment variables and parameters, users can click on the **Ref** column, which displays detailed mappings. This helps ensure that the necessary updates are applied correctly in the target system.  
+To review the affected environment variables and parameters, users can click on the `Ref` column, which displays detailed mappings. This helps ensure that the necessary updates are applied correctly in the target system.  
 
 ### Example: Updating a SQL Server Connection String  
 
-One common scenario is updating a **SQL Server connection string** when migrating SSIS packages to a new environment. For example, consider the following connection string in the source environment:  
+One common scenario is updating a SQL Server connection string when migrating SSIS packages to a new environment. For example, consider the following connection string in the source environment:  
 
 **Source Connection String:**  
 `Data Source=sql-dev.database.windows.net;Initial Catalog=SourceDB;User ID=OldUser;Password=OldPassword;`  
@@ -95,7 +95,7 @@ If the target environment uses a different server and credentials, you can confi
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
-By defining this key-value replacement, the **SSIS Catalog Migration Wizard** ensures that all references to the old connection string are updated automatically, reducing manual intervention and minimizing potential errors.  
+By defining this key-value replacement, the wizard ensures that all references to the old connection string are updated automatically, reducing manual intervention and minimizing potential errors.  
 
 ### Use Case: Setting Up a Parallel Environment  
 
