@@ -99,7 +99,7 @@ By defining this key-value replacement, the **SSIS Catalog Migration Wizard** en
 
 ### Use Case: Setting Up a Parallel Environment  
 
-This feature is handy when establishing a **parallel environment** for ETL workloads. When migrating SSIS projects, configurations like connection strings, file paths, or authentication details often differ between environments. Updating these settings during migration ensures that SSIS packages run smoothly in the new setup without requiring additional post-migration modifications.  
+This feature is handy when establishing a **parallel environment** for ETL workloads. When migrating SSIS projects, configurations like connection strings, file paths, or authentication details often differ between environments. Updating these settings during migration ensures SSIS packages run smoothly in the new setup without requiring additional post-migration modifications.  
 
 ### Optional but Valuable Configuration  
 
@@ -110,7 +110,7 @@ While updating environment variables and parameter values is an **optional step*
 The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. 
 
 {: .warning }  
-Using this setting will recreate target SSIS environment variables. You would loose existing target environment variable values in this case.
+Using this setting will recreate the target SSIS environment variables. You would lose existing target environment variable values in this case.
 
 
 ## Export Sensitive Data
