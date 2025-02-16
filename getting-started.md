@@ -71,11 +71,41 @@ Easily map source and target its permissions' checkbox folder names. The wizard 
 For instance, as shown in the above image, the wizard will copy the content of the source catalog folder Pqr to the target catalog folder Abc. This step is optional.
 
 ## Replace Environment Variable and Parameter Values
-Configure the key-value pairs you want to replace in the environment variable and parameter values. Suggest button will list suggestions for replacing values based on the selected Replace Scope. Click on the Ref column to view the affected environment variables and parameters as shown in the image below.
+
+
+Migrating SQL Server Integration Services (SSIS) projects often involve updating environment variables and parameter values to align with the target environment. The **SSIS Catalog Migration Wizard** simplifies this process by prepopulating values from the source **SSISDB** and allowing users to modify them before migration.  
+
+### Configuring Key-Value Replacements  
+
+During migration, users can configure **key-value pairs** to replace specific values in environment variables and SSIS project/package parameters. The wizard includes a **"Suggest"** button, which provides recommendations based on the selected **Replace Scope**.  
+
+To review the affected environment variables and parameters, users can click on the **Ref** column, which displays detailed mappings. This helps ensure that the necessary updates are applied correctly in the target system.  
+
+### Example: Updating a SQL Server Connection String  
+
+One common scenario is updating a **SQL Server connection string** when migrating SSIS packages to a new environment. For example, consider the following connection string in the source environment:  
+
+**Source Connection String:**  
+`Data Source=<mark>sql-dev</mark>.database.windows.net;Initial Catalog=<mark>SourceDB</mark>;User ID=<mark>OldUser</mark>;Password=<mark>OldPassword</mark>;`  
+
+If the target environment uses a different server and credentials, you can configure the wizard to replace these values:
+
+**Target Connection String:**  
+`Data Source=<mark>sql-test</mark>.database.windows.net;Initial Catalog=<mark>TargetDB</mark>;User ID=<mark>NewUser</mark>;Password=<mark>NewPassword</mark>;`  
+
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
-Perhaps, this is useful when setting up a parallel environment for your ETL workload, and some configurations are different in the target environment. This configuration is optional.
+By defining this key-value replacement, the **SSIS Catalog Migration Wizard** ensures that all references to the old connection string are updated automatically, reducing manual intervention and minimizing potential errors.  
+
+### Use Case: Setting Up a Parallel Environment  
+
+This feature is handy when establishing a **parallel environment** for ETL workloads. When migrating SSIS projects, configurations like connection strings, file paths, or authentication details often differ between environments. Updating these settings during migration ensures that SSIS packages run smoothly in the new setup without requiring additional post-migration modifications.  
+
+### Optional but Valuable Configuration  
+
+While updating environment variables and parameter values is an **optional step**, it is highly recommended when configuration differences exist between the source and target environments. By leveraging the **SSIS Catalog Migration Wizard**, users can efficiently adjust necessary values, reduce post-migration issues, and ensure seamless execution of SSIS packages.  
+
 
 ## Overwrite Environment Variable Values
 The `Overwrite environment variable values` setting recreates environment variables and parameter default values in the target. 
