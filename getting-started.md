@@ -75,33 +75,33 @@ For instance, as shown in the above image, the wizard will copy the content of t
 
 Migrating SQL Server Integration Services (SSIS) projects often involve updating environment variables and parameter values to align with the target environment. SSIS Catalog Migration Wizard simplifies this process by prepopulating values from the source SSISDB and allowing users to modify them before migration.  
 
-### Configuring Key-Value Replacements  
+### Configuring key-value replacements  
 
 During migration, users can configure key-value pairs to replace specific values in environment variables and SSIS project/package parameters. The wizard includes a `Suggest` button, which provides recommendations based on the selected `Replace Scope`.  
 
 To review the affected environment variables and parameters, users can click on the `Ref` column, which displays detailed mappings. This helps ensure that the necessary updates are applied correctly in the target system.  
 
-### Example: Updating a SQL Server Connection String  
+### Example: Updating a SQL Server connection string  
 
 One common scenario is updating a SQL Server connection string when migrating SSIS packages to a new environment. For example, consider the following connection string in the source environment:  
 
-**Source Connection String:**  
+**Source connection string:**  
 `Data Source=sql-dev.database.windows.net;Initial Catalog=SourceDB;User ID=OldUser;Password=OldPassword;`  
 
 If the target environment uses a different server and credentials, you can configure the wizard to replace these values:
 
-**Target Connection String:**  
+**Target connection string:**  
 `Data Source=sql-test.database.windows.net;Initial Catalog=TargetDB;User ID=NewUser;Password=NewPassword;`  
 
 <img src="../media/ReplaceVariables.gif" width="800">
 
 By defining this key-value replacement, the wizard ensures that all references to the old connection string are updated automatically, reducing manual intervention and minimizing potential errors.  
 
-### Use Case: Setting Up a Parallel Environment  
+### Use Case: Setting up a parallel environment  
 
 This feature is handy when establishing a parallel environment for ETL workloads. When migrating SSIS projects, configurations like connection strings, file paths, or authentication details often differ between environments. Updating these settings during migration ensures SSIS packages run smoothly in the new setup without requiring additional post-migration modifications.  
 
-### Optional but Valuable Configuration  
+### Optional but valuable configuration  
 
 While updating environment variables and parameter values is an optional step, it is highly recommended when configuration differences exist between the source and target environments. By leveraging the SSIS Catalog Migration Wizard, users can efficiently adjust necessary values, reduce post-migration issues, and ensure seamless execution of SSIS packages.  
 
