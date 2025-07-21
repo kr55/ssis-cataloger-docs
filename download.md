@@ -16,14 +16,14 @@ nav_order: 3
 
 ---
 
-## Order a license key
+## Order a License Key
 
 Unlock the full power of SSIS Catalog Migration Wizard by purchasing a license key.
 The licensed version removes trial limitations and enables complete migration of your SSISDB to the target server.
 
 [Get License Key](https://azureops.org/product/ssis-catalog-migration-wizard-pro/){: .btn .btn-green .mr-2 }
 
-## Download the installer
+## Download the Installer
 
 Once you have ordered the product license from [azureops.org](https://azureops.org/product/ssis-catalog-migration-wizard-pro/), login to your account and navigate to [downloads](https://azureops.org/my-account/downloads/) page. Download the zip file. Alternatively, you will receive a link to download the software by email.
 
