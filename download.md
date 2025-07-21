@@ -16,7 +16,7 @@ nav_order: 3
 
 ---
 
-## Order a License Key
+## Order a license key
 
 Unlock the full power of SSIS Catalog Migration Wizard by purchasing a license key.
 The licensed version removes trial limitations and enables complete migration of your SSISDB to the target server.
