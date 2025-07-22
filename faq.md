@@ -87,7 +87,7 @@ SSIS Catalog Migration Wizard migrates SSIS Catalog from one server to another i
 
 **Is there a limited feature free trial available?**
 
-SSIS Catalog Migration Wizard has a limited feature trial version. The LFT version can migrate the first three SSIS items from the source to target SSISDB. [Download](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscatalogerpro) the trial from the Visual Studio Marketplace.
+Yes, you can download the free trial of SSIS Catalog Migration Wizard from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AzureOps.ssiscatalogerpro). The trial version allows migration of the first 3 SSIS items from the source to the target SSISDB.
 
 **How can I receive software updates?**
 
