@@ -5,7 +5,7 @@ permalink: /more-tools/
 nav_order: 9
 ---
 
-# 🚀 More Tools by AzureOps
+# More Tools by AzureOps
 
 AzureOps builds practical, focused tools to help data engineers and DBAs be more productive.  
 If you're using SSIS Catalog Migration Wizard, you might also find these tools useful:
