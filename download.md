@@ -36,6 +36,19 @@ The licensed version removes trial limitations and enables complete migration of
 
 {% include youtubePlayer.html id="VcYksuavI54" %}
 
+
+## Activate license key
+
+You will receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
+Launch SSIS Cataloger Installer.exe and enter the product key on the landing page screen and click on the `Activate Product` button. 
+It should activate the product on the machine.
+
+<img src="../media/ActivateLicense.png" width="500">
+
+## Deactivate license key (Danger)
+
+If you want to deactivate the product key, you can launch SSIS Cataloger Installer.exe and click the `Deactivate Product` button. This action is irreversible, and you cannot reactivate the product with the same product key.
+
 ### Manual Mode
 
 **Visual Studio 2017/2019**
@@ -76,22 +89,28 @@ The licensed version removes trial limitations and enables complete migration of
 3. Restart SSMS 19.
 4. You will now see the `SSIS Cataloger` option under the Tools menu item. Click it to Launch.
 
+**SQL Server Management Studio 20**
+
+[Download Visual Studio 2017/2019 Extension](https://marketplace.visualstudio.com/items?itemName=AzureOps.SSISCataloger2022){: .btn .btn-purple .mr-2 }
+
+1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Cataloger` using 7zip.
+2. Copy this folder to the location `C:\Program Files (x86)\Microsoft SQL Server Management Studio 20\Common7\IDE\Extensions`. You would need admin permissions to do this.
+3. Restart SSMS 20.
+4. You will now see the `SSIS Cataloger` option under the Tools menu item. Click it to Launch.
+
+**SQL Server Management Studio 21**
+
+[Download Visual Studio 2017/2019 Extension](https://marketplace.visualstudio.com/items?itemName=AzureOps.SSISCataloger2022){: .btn .btn-purple .mr-2 }
+
+1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Cataloger` using 7zip.
+2. Copy this folder to the location `C:\Program Files (x86)\Microsoft SQL Server Management Studio 21\Common7\IDE\Extensions`. You would need admin permissions to do this.
+3. Restart SSMS 21.
+4. You will now see the `SSIS Cataloger` option under the Tools menu item. Click it to Launch.
+
 **Standalone installation**
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Catalog Migration Wizard` using 7zip.
 2. Place this folder in your preferred location and double-click the `SSIS.Cataloger.exe` file, to launch the application.
 
 You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
-
-## Activate license key
-
-You will receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
-Launch SSIS Cataloger Installer.exe and enter the product key on the landing page screen and click on the `Activate Product` button. 
-It should activate the product on the machine.
-
-<img src="../media/ActivateLicense.png" width="500">
-
-## Deactivate license key (Danger)
-
-If you want to deactivate the product key, you can launch SSIS Cataloger Installer.exe and click the `Deactivate Product` button. This action is irreversible, and you cannot reactivate the product with the same product key.
 
 <img src="../media/DeactivateLicense.png" width="500">
