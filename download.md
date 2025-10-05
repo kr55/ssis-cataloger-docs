@@ -49,6 +49,8 @@ It should activate the product on the machine.
 
 If you want to deactivate the product key, you can launch SSIS Cataloger Installer.exe and click the `Deactivate Product` button. This action is irreversible, and you cannot reactivate the product with the same product key.
 
+<img src="../media/DeactivateLicense.png" width="500">
+
 ### Manual Mode
 
 **Visual Studio 2017/2019**
@@ -113,4 +115,3 @@ If you want to deactivate the product key, you can launch SSIS Cataloger Install
 
 You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
 
-<img src="../media/DeactivateLicense.png" width="500">
