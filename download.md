@@ -113,5 +113,5 @@ If you want to deactivate the product key, you can launch SSIS Cataloger Install
 1. Extract the file `SSIS.Cataloger.Pro.vsix` content in a folder named `SSIS Catalog Migration Wizard` using 7zip.
 2. Place this folder in your preferred location and double-click the `SSIS.Cataloger.exe` file, to launch the application.
 
-You will receive a download link in your email. You can also find the download link at [my-accounts](https://azureops.org/my-account/downloads/). 
+
 
