@@ -29,14 +29,6 @@ The licensed version removes trial limitations and enables complete migration of
 
 <img src="../media/DownloadPage.png" width="700">
 
-## How to install
-
-### Using the Installer
-1. Double-click the installer file `SSIS Cataloger Installer.exe` and follow the steps to complete the installation of SSIS Catalog Migration Wizard.
-
-{% include youtubePlayer.html id="VcYksuavI54" %}
-
-
 ## Activate license key
 
 You will receive the license key via email. You can also find the license key at [my-accounts](https://azureops.org/my-account/view-license-keys/). 
@@ -50,6 +42,13 @@ It should activate the product on the machine.
 If you want to deactivate the product key, you can launch SSIS Cataloger Installer.exe and click the `Deactivate Product` button. This action is irreversible, and you cannot reactivate the product with the same product key.
 
 <img src="../media/DeactivateLicense.png" width="500">
+
+## How to install
+
+### Using the Installer
+1. Double-click the installer file `SSIS Cataloger Installer.exe` and follow the steps to complete the installation of SSIS Catalog Migration Wizard.
+
+{% include youtubePlayer.html id="VcYksuavI54" %}
 
 ### Manual Mode
 
