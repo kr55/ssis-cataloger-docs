@@ -37,7 +37,7 @@ It should activate the product on the machine.
 
 <img src="../media/ActivateLicense.png" width="500">
 
-## How to install
+## Choose an Installation Target
 
 ### Using the Installer
 1. Double-click the installer file `SSIS Cataloger Installer.exe` and follow the steps to complete the installation of SSIS Catalog Migration Wizard.
