@@ -56,9 +56,9 @@ It should activate the product on the machine.
 
 <img src="../media/VSMarketPlaceDownload.png" width="700">
 
-**Visual Studio 2022**
+**Visual Studio 2022/2026**
 
-1. Open Visual Studio 2022. 
+1. Open Visual Studio 2022 or 2026. 
 2. Click on the ‘Extensions’ menu item, then select ‘Manage Extensions’.
 3. Under `Online` section, search for `SSIS Catalog Migration Wizard` and click `Download`.
 3. Once the download is done, restart Visual Studio and complete the installation.
