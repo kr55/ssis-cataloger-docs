@@ -6,7 +6,7 @@ nav_order: 1
 
 # SSIS Catalog Migration Wizard
 
-SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, 20, 21(preview), Visual Studio 2017, 2019, and 2022. Additionally, it offers the flexibility to operate as an independent, standalone application.
+SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, 20, 21, Visual Studio 2017, 2019, 2022 ans 2026. Additionally, it offers the flexibility to operate as an independent, standalone application.
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
