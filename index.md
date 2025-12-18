@@ -17,7 +17,7 @@ SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL se
 {% include youtubePlayer.html id="t2h6xNVFQkc" %}
 
 ## Supported Sources and Targets
-- **SSISDB in SQL Server**: SSIS catalog enabled in SQL Server (2012, 2014, 2016, 2017, 2019, 2022). 
+- **SSISDB in SQL Server**: SSIS catalog enabled in SQL Server (2012, 2014, 2016, 2017, 2019, 2022, 2025(preview)). 
 - **SSIS runtime Azure Data Factory**: This is used when running SSIS packages in Azure using Azure data factory pipelines.
 - **SCMW export**: This is a unique export format for SSIS Catalog items.
 
