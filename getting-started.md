@@ -72,7 +72,6 @@ For instance, as shown in the above image, the wizard will copy the content of t
 
 ## Replace Environment Variable and Parameter Values
 
-
 Migrating SQL Server Integration Services (SSIS) projects often involve updating environment variables and parameter values to align with the target environment. SSIS Catalog Migration Wizard simplifies this process by prepopulating values from the source SSISDB and allowing users to modify them before migration.  
 
 ### Configuring key-value replacements  
@@ -114,7 +113,7 @@ Using this setting will recreate the target SSIS environment variables. You woul
 
 
 ## Export Sensitive Data
-This setting applies to exporting SSIS Catalog items to the SCMW file. SCMW export file is not encrypted. When the `Export sensitive data` setting is set, the wizard exports sensitive information in the export file as free text.
+This setting applies to exporting SSIS Catalog items to a .SCMW file. SCMW export file is not encrypted. When the `Export sensitive data` setting is set, the wizard exports sensitive information in the export file as free text.
 
 ## Complete the Wizard
 <img src="../media/Review.png" width="500">
