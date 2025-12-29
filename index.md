@@ -6,7 +6,7 @@ nav_order: 1
 
 # SSIS Catalog Migration Wizard
 
-SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, 20, 21, Visual Studio 2017, 2019, 2022 and 2026. Additionally, it offers the flexibility to operate as an independent, standalone application.
+SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL server to another. It is an add-in for SSMS 18, 19, 20, 21, 22, Visual Studio 2017, 2019, 2022 and 2026. Additionally, it offers the flexibility to operate as an independent, standalone application.
 {: .fs-6 .fw-300 }
 
 [Get started now](https://ssiscataloger.azureops.org/download/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -17,8 +17,8 @@ SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL se
 {% include youtubePlayer.html id="t2h6xNVFQkc" %}
 
 ## Supported Sources and Targets
-- **SSISDB in SQL Server**: SSIS catalog enabled in SQL Server (2012, 2014, 2016, 2017, 2019, 2022, 2025(preview)). 
-- **SSIS runtime Azure Data Factory**: This is used when running SSIS packages in Azure using Azure data factory pipelines.
+- **SSISDB in SQL Server**: SSIS catalog enabled in SQL Server (2012, 2014, 2016, 2017, 2019, 2022, 2025). 
+- **Azure Data Factory SSIS Integration Runtime (IR)**: This is used when running SSIS packages in Azure using Azure data factory pipelines.
 - **SCMW export**: This is a unique export format for SSIS Catalog items.
 
 ## Key Features
@@ -37,7 +37,7 @@ SSIS Catalog Migration Wizard helps you migrate the SSIS Catalog from one SQL se
 - Environments and environment variables.
 - Project and package parameter default values including connection manager properties and encrypted passwords.
 - Project and package parameter server-side values including connection manager properties and encrypted passwords.
--  Folder, project, and environment permissions.
+- Folder, project, and environment permissions.
 
 ## How It Works
 - **Select the source**: Select the source SQL Server containing SSISDB to be migrated.
