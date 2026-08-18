@@ -92,7 +92,7 @@ If the target environment uses a different server and credentials, you can confi
 **Target connection string:**  
 `Data Source=sql-test.database.windows.net;Initial Catalog=TargetDB;User ID=NewUser;Password=NewPassword;`  
 
-<img src="../media/ReplaceVariables.gif" width="800">
+<img src="../media/ReplaceVariables.png" width="800">
 
 By defining this key-value replacement, the wizard ensures that all references to the old connection string are updated automatically, reducing manual intervention and minimizing potential errors.  
 
